@@ -1,0 +1,114 @@
+body
+{
+   background-color: white;
+   color: #212529;
+    font-family: "Raleway",sans-serif;
+}
+.navbar
+{
+    color: yellowgreen;
+    position: absolute;
+    top: 0px;
+    
+    right: 0;
+    left: 0;
+}
+.navbar a
+{
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+.navbar .navbar-brand
+{
+    font-size: 1.8rem;
+}
+.navbar .nav-link:hover
+{
+    border-bottom: 1px solid white;
+}
+.firstwall
+{
+    background: url(http://heliovolt.net/wp-content/uploads/2019/08/campaign-4366556_1920-1.jpg) bottom center /cover no-repeat;
+    
+   color: white;
+    min-height: 700px;
+}
+.firstwall h3
+{
+    font-weight: 400;
+}
+
+.firstwall h1
+{
+    line-height: 1;
+    font-weight: 700;
+    font-family: "Questrial", sans-serif;
+}
+.firstwall p
+{   font-weight: 380;
+    margin-top: 13px;
+    font-size: 1.2rem;
+}
+@media (max-width:768px)
+{
+    .navbar
+    {
+        background-color: black;
+       
+    }
+   .navbar .nav-link:hover
+    {
+        border-bottom: none;
+    }
+    .firstwall
+    {
+        min-height: 500px;
+
+    }
+    .firstwall h1
+    {
+       font-size:4rem;
+    }
+}
+.secondpage , .thirdpage
+{
+    color: #212529;
+}
+.card-title
+{
+    font-weight: 500;
+}
+.card-text
+{
+    font-weight: 350;
+}
+.line1
+{
+    font-size: 1.8rem;
+}
+.thirdpage .card-title
+{
+    color: #17a2b8;
+}
+.thirdpage .card-text
+{
+    font-weight: 450;
+}
+i{
+    color: #36b3a8;
+}
+.last
+{
+    background-color: #343a40;
+    height: 180px;
+    color:white;
+}
+.nav .nav-link
+{
+    color: white;
+}
+.nav{
+    padding: 15px;
+    font-weight: 250;
+    background-color: #1F1F1F;
+}
